@@ -1,0 +1,40 @@
+.person-header{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.person-header img{
+    height: 100%;
+    -webkit-box-shadow: 3px 3px 24px 5px rgba(34,112,181,0.7);
+    -moz-box-shadow: 3px 3px 24px 5px rgba(34,112,181,0.7);
+    box-shadow: 3px 3px 24px 5px rgba(34,112,181,0.7);
+}
+
+.person-descr{
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(34,112,181, 0.5);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.person-descr-row{
+    text-align: left;
+}
+
+.person-descr-rowname{
+    background-color: rgb(34,112,181);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.person-bio{
+    padding: 10px;
+    padding-top: 0px;
+    line-height: 1.2rem;
+}

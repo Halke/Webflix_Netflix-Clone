@@ -1,0 +1,10 @@
+.signin-page h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-page{
+    width: 100%;
+    height: 1000px;
+}

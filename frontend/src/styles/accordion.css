@@ -1,0 +1,32 @@
+.accordion-panel{
+    width: 50%;
+    margin: 5px;
+}
+
+.accordion {
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid black;
+    outline: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(50, 50, 50);
+  }
+  
+  .panel {
+    border: 1px solid black;
+    padding: 10px 10px;
+    background-color: rgb(50, 50, 50);
+    display: none;
+    overflow: hidden;
+    font-size: 20px;
+  }

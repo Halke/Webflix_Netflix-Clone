@@ -1,0 +1,32 @@
+.movies-row{
+    margin: 50px 0px;
+    height: 400px;
+}
+
+.movies-category{
+    text-align: left;
+    padding: 5px 20px;
+    font-size: 30px;
+    /* color: rgb(255, 255, 255); */
+    color: rgb(23, 110, 209);
+}
+
+.movies-row-listing{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.movies-row-listing::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;               
+}
+
+.movies-row-listing::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.7);        
+}
+
+.movies-row-listing::-webkit-scrollbar-thumb {
+    background-color: rgb(30, 30, 30);    
+    border-radius: 20px;       
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}

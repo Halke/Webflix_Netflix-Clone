@@ -1,0 +1,18 @@
+.content-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-type{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+    border-bottom: 2px solid rgb(30, 30 ,30);
+}
+
+.content-type h1{
+    color: white;
+}

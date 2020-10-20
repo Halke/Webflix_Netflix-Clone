@@ -1,0 +1,25 @@
+.serie-page{
+    width: 100%;
+}
+
+.serie-navbar{
+    width: 100%;
+}
+
+.serie-page-header{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 30px auto;
+    text-align: center;
+    -webkit-box-shadow: 3px 3px 24px 5px rgba(34,112,181,0.7);
+    -moz-box-shadow: 3px 3px 24px 5px rgba(34,112,181,0.7);
+    box-shadow: 3px 3px 24px 5px rgba(34,112,181,0.7);
+}
+
+.serie-info{
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}

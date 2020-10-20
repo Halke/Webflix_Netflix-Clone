@@ -1,0 +1,12 @@
+.select-category{
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(23, 110, 209);
+    border-radius: 10px;
+}
+
+.select-category:focus{
+    outline: none;
+}

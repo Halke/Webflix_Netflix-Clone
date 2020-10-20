@@ -1,0 +1,17 @@
+.checkbox-div{
+    display: flex;
+    padding: 5px 0px;
+}
+
+.need-help, .checkbox-div{
+    font-size: 14px;
+    color: rgb(155, 155, 155);
+}
+
+.checkbox-div input{
+    border: none;
+}
+
+.checkbox-div label{
+    height: 20px;
+}

@@ -1,0 +1,15 @@
+.profile-link{
+    height: 40px;
+    margin: 0px 20px;
+    border-radius: 100%;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.profile-icon{
+    height: 100%;
+}
+
+.profile-link:hover{
+    opacity: 1;
+}

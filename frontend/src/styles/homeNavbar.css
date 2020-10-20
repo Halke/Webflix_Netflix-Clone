@@ -1,0 +1,24 @@
+#navbar{
+    height: 80px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background: radial-gradient(circle, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.95) 90%);*/
+}
+
+.navbar-heading{
+    height: 100%;
+}
+
+.navbar-heading h1{
+    padding: 15px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(23, 110, 209);
+}
+
+.navbar-btn a{
+    background-color: rgb(23, 110, 209);
+    padding: 5px 15px;
+    border-radius: 5px;
+}

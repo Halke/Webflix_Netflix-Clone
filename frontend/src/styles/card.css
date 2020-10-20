@@ -1,0 +1,39 @@
+.homepage-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+    margin: 5px 0px;
+    background-color: #000;
+}
+
+.card-side{
+    width: 40%;
+}
+
+.text-side h1, .text-side h3{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.text-side h1{
+    font-size: 40px;
+}
+
+.text-side h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.image-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-side img{
+    height: 300px;
+}

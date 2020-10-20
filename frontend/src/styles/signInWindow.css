@@ -1,0 +1,64 @@
+.signin-window {
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px 20px 60px 20px; */
+  margin: 50px auto;
+  padding: 50px 50px 50px 50px;
+}
+
+.signInWindow__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signInWindow__header h1 {
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  font-size: 30px;
+  padding: 0px 0px 20px 0px;
+}
+
+.signin-window-form {
+  text-align: left;
+}
+
+.remember-me {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#remember-me,
+.need-help {
+  width: 50%;
+}
+
+.need-help {
+  text-align: right;
+}
+
+.login-options a {
+  display: block;
+  width: 100%;
+  padding: 5px 0px;
+  color: rgb(145, 143, 143);
+}
+
+.new-user {
+  padding: 5px 0px;
+  color: rgb(145, 143, 143);
+}
+
+.signup-now {
+  color: #fff;
+}

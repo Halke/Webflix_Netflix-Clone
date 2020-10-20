@@ -1,0 +1,21 @@
+.movie-card{
+    height: 300px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 20px;
+}
+
+.movie-card-image{
+    height: 100%;
+    width: 170px;
+    background-color: rgba(23, 110, 209, 0.5);
+    transition: 0.3s;
+}
+
+.movie-card-image:hover{
+    -webkit-box-shadow: 3px 3px 24px 5px rgba(34,112,181,0.7);
+    -moz-box-shadow: 3px 3px 24px 5px rgba(34,112,181,0.7);
+    box-shadow: 3px 3px 24px 5px rgba(34,112,181,0.7);
+}

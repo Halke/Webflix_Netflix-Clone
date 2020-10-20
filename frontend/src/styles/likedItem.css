@@ -1,0 +1,17 @@
+.likedItem {
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  margin: 15px 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.likedItem > img {
+  height: 100%;
+  margin-right: 10px;
+}
+
+.likedItem__item-info {
+  text-align: left;
+}

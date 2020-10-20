@@ -1,0 +1,25 @@
+.subscribe-to-netflix{
+    width: 50%;
+    height:60px;
+    margin-bottom: 30px;
+}
+
+.subscribe-to-netflix input,
+.subscribe-btn{
+    height: 100%;
+    width: 50%;
+    border: none;
+    font-size: 25px;
+    border-radius: 0%;
+}
+
+.subscribe-btn{
+    background-color: rgb(23, 110, 209);
+    cursor: pointer;
+    color: #fff;
+}
+
+.subscribe-to-netflix input{
+    font-size: 25px;
+    padding: 0px 10px;
+}

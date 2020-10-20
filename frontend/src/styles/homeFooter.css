@@ -1,0 +1,27 @@
+.home-footer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-footer table{
+    width: 50%;
+    font-size: 15px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+tr td{
+    text-align: left;
+}
+
+thead tr td, tfoot tr td{
+    padding: 10px 5px;
+}
+
+tbody tr td{
+    padding: 3px 5px;
+}

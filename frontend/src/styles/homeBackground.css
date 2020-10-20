@@ -1,0 +1,14 @@
+.hero-homepage{
+    background-image: url('/images/HomePage_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.hero-homepage-overlay{
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.95) 90%);
+}
